@@ -1,6 +1,6 @@
 import cv2
 cap=cv2.VideoCapture(0)
-face_cascade=cv2.CascadeClassifier("/Users/priyank/Desktop/Data Science Folder/Lecture8/Pycharm/haarcascade_frontalface_default.xml")
+face_cascade=cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 while True:
     ret,frame=cap.read()
     if ret==False:
